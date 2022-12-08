@@ -1,0 +1,108 @@
+
+
+// START BUTTON STYLE //
+
+
+#homePage {
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #startBtn {
+            position: relative;
+            display: inline-block;
+            padding: 15px 30px;
+            color: white;
+            text-transform: uppercase;
+            font-family: "zen";
+            border-radius: 5px;
+            letter-spacing: 4px;
+            text-decoration: none;
+            font-size: 40px;
+            overflow: hidden;
+            transition: 0.2s;
+        }
+        
+        
+            //START BTN EFFECTS w/ LINEAR GRADIENT BORDER//
+
+        #startBtn:hover {
+            color: #00FFFF;
+            background: #9D00FF;
+            box-shadow: 0 0 10px #9D00FF, 0 0 40px #9D00FF, 0 0 80px #9D00FF;
+            transition-delay: 1s;
+        }
+        
+        
+        #startBtn span {
+            position: absolute;
+            display: block;
+        }
+        
+        
+        
+        
+        #startBtn span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #9D00FF);
+        }
+        
+        
+        
+        #startBtn:hover span:nth-child(1) {
+            left: 100%;
+            transition: 1s;
+        }
+        
+        
+        #startBtn span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #9D00FF);
+        }
+        
+        #startBtn:hover span:nth-child(3) {
+            right: 100%;
+            transition: 1s;
+            transition-delay: 0.5s;
+        }
+        
+        
+        
+        #startBtn span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #9D00FF);
+        }
+        
+        #startBtn:hover span:nth-child(2) {
+            top: 100%;
+            transition: 1s;
+            transition-delay: 0.25s;
+        }
+        
+        
+        
+        #startBtn span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #9D00FF);
+        }
+        
+        #startBtn:hover span:nth-child(4) {
+            bottom: 100%;
+            transition: 1s;
+            transition-delay: 0.75s;
+        }
+}

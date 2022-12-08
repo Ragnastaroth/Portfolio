@@ -1,0 +1,80 @@
+
+#compétences {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin: 20%;
+    padding: 10%;
+
+    #skillsContainer {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 4rem;
+        
+        h3 {
+            color: cyan;
+            font-size: 40px;
+            font-family: "mont_b";
+            text-transform: uppercase;
+        }
+
+        span {
+
+            color: gold;
+            font-size: 40px;
+            font-family: "zen";
+        }
+    }
+
+    p, li {
+        color: white;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 4rem auto;
+        overflow: hidden;
+    }
+}
+
+
+.slideLeft {
+    animation-name: slideLeft;
+    animation-duration: 1.5s;
+}
+
+.slideRight {
+    animation-name: slideRight;
+    animation-duration: 2s;
+}
+
+@keyframes slideRight {
+
+    from {
+        transform: translateX(-1000%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideLeft {
+
+    from {
+        transform: translateX(1000%);
+    }
+
+    to {
+        transform: translateX(0)
+    }
+}

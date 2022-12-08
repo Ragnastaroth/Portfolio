@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/libs/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio Fab</title>
+</head>
+
+<body>
+    
+    <!-- HEADER PART w/ ANIMATED BANNER & DYNAMIC NAVBAR -->
+
+    <header>
+        <h1 id="h1">
+            <video id="backgroundVideo" autoplay muted>
+                <source src="assets/video/Portfolio logo.mp4" type="video/mp4">
+            </video>
+        </h1>
+
+        <!-- DYNAMIC NAVBAR WITH CARDS FOR SECTIONS -->
+
+
+        <nav id="nav">
+            <div class="cardContainer">
+                <div class="card">
+                  <div class="face face1">
+                    <div class="content">           
+                      <h2>À propos de moi</h2>
+                    </div>
+                  </div>
+                  <div class="face face2">
+                    <div class="content">
+                      <p> Pour en savoir plus sur moi !</p>
+                      <a href="#me" type="button">Go !</a>
+                    </div>
+                  </div>
+               </div>
+               
+               <div class="card">
+                  <div class="face face1">
+                    <div class="content">
+                        <h2>Projets</h2>               
+                    </div>
+                  </div>
+                  <div class="face face2">
+                    <div class="content">
+                      <p>Projets réalisés dans le cadre de ma formation.</p>
+                      <a href="#projets" type="button">Go !</a>
+                    </div>
+                  </div>
+               </div>
+                
+               <div class="card">
+                  <div class="face face1">
+                    <div class="content">
+                       <h2>Compétences</h2>
+                    </div>
+                  </div>
+                  <div class="face face2">
+                    <div class="content">
+                      <p>Les langages que je connais et apprend à maîtriser.</p>
+                      <a href="#compétences" type="button">Go !</a>
+                    </div>
+                  </div>
+               </div>
+
+               <div class="card">
+                <div class="face face1">
+                  <div class="content">
+                     <h2>Contactez-moi</h2>
+                  </div>
+                </div>
+                <div class="face face2">
+                  <div class="content">
+                    <p>Pour me contacter, discuter code ou laisser un commentaire (gentil :D).</p>
+                    <a href="#contacts" type="button">Go !</a>
+                  </div>
+                </div>
+             </div>  
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN SECTION  -->
+
+    <main>
+
+      <!-- FIRST SECTION "ABOUT ME" -->
+
+        <section id="meSect">
+          <div id="me" class="box">
+            <h2>À propos de moi</h2>
+            <article id="meContainer">
+
+              <div>
+                <h3 class="h3">Mon cursus</h3>
+                <p class="meTxt">Après 11 ans de bons (j'espère) et loyaux (clairement !) services dans la restauration, j'ai entamé une reconversion professionnelle dans un domaine qui me tient à coeur depuis toujours, la tech. Actuellement en formation pour devenir développeur web/web mobile full stack afin de rejoindre la grande famille des développeurs !</p>
+              </div>
+
+              <div>
+                <h3 class="h3">Mes goûts</h3>
+                <p class="meTxt">Je suis plutôt tourné vers les designs futuristes et/ou rétro-futuristes, je suis un gamer patenté, un amateur de musique (metal &#x1F918) et de lecture, curieux de tout, j'aime apprendre tous les jours.</p>
+              </div>
+              
+            </article>
+          </div>
+        </section>
+
+        <!-- SECOND SECTION w/ FINISHED PROJECTS GALLERY -->
+
+
+        <section id="projects">
+
+          <div id="projets" class="box">
+
+            <h2>Mes projets</h2>
+            <p>Voici un échantillon des projets réalisés dans le cadre de ma formation</p>
+
+            <article id="prosContainer">
+
+              <div class="proContainer img1">
+                <h3>Gaming Campus</h3>
+              </div>
+
+              <div class="proContainer img2">
+                <h3>World of Warcraft</h3>
+                <div></div>
+              </div>
+
+              <div class="proContainer img3">
+                <h3>Pep's Coaching</h3>
+              </div>
+
+              <div class="proContainer img4">
+                <h3>DevVid</h3>
+              </div>
+
+              <div class="proContainer img5">
+                <h3>New World</h3>
+              </div>
+
+              <div class="proContainer img6"></div>
+                <h3>One Million</h3>
+            </article>
+
+          </div>
+
+        </section>
+        
+        <!-- THIRD SECTION w/ MOVING SKILLS DISPLAY -->
+
+
+        <section id="compétences" class="box">
+            <h2>Mes compétences</h2>
+            <p>Voici les langages et frameworks qui m'ont servis à réaliser les projets précédents:</p>
+            <article>
+              <div id="skillsContainer">
+                <h3>Skills: </h3>
+                <span id="skillContainer"></span>
+              </div>
+              <ul>
+                <li class="skills1">HTML</li>
+                <li class="skills2">CSS</li>
+                <li class="skills1">SASS</li>
+                <li class="skills2">JavaScript</li>
+                <li class="skills1">React</li>
+                <li class="skills2">BootStrap</li>
+              </ul>
+            </article>
+        </section>
+
+        <!-- FOURTH SECTION WITH FORM TO CONTACT ME OR LEAVE SOME COMMENTS -->
+
+
+        <section id="contacts" class="box">
+            <h2>Contactez-moi !</h2>
+            <article>
+              <p></p>
+              <p></p>
+              <form action="">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Si vous souhaitez laisser un commentaire"></textarea>
+              </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+      
+    </footer>
+
+</body>
+<script src="assets/js/home.js"></script>
+<script src="assets/js/skills.js"></script>

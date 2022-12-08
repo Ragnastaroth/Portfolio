@@ -1,0 +1,67 @@
+
+#projets {
+
+    #prosContainer {
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        height: 800px;
+
+        #proContainer {
+
+            width: 400px;
+            height: 300px;
+            
+            h3 {
+
+                font-size: 15px;
+                color: white;
+            }
+        }
+    }
+}
+
+.img1 {
+
+    background-image: url(../img/gamingCampus.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+
+    background-image: url(../img/wow.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+
+    background-image: url(../img/peps.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4 {
+
+    background-image: url(../img/devVid.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img5 {
+
+    background-image: url(../img/newWorld.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img6 {
+
+    background-image: url(../img/gamingCampus.png);
+    background-size: cover;
+    background-position: center;
+}

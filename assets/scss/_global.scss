@@ -1,0 +1,46 @@
+// FONTS STYLE //
+
+@font-face {
+    font-family: "zen";
+    src: url(../fonts/ZenDots-Regular.ttf);
+}
+
+@font-face {
+    font-family: "mont";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "mont_b";
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+
+// GLOBAL STYLE //
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "mont";
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
