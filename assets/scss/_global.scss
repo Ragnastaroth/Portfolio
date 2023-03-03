@@ -30,7 +30,7 @@ a {
 }
 
 body {
-    font-family: "mont";
+    font-family: "mont_b";
     background-color: black;
 }
 
@@ -43,4 +43,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+section {
+
+    width: 80vw;
+    height: auto;
+    margin: 10% 0;
 }

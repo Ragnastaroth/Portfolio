@@ -1,0 +1,62 @@
+@media screen and (max-width: 1000px) {
+
+    #meContainer {
+        .meTxt {
+            overflow: visible; 
+            width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    nav {
+
+        .cardContainer {
+            display: none;
+        }
+
+        #btn_burgerContainer {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #btn_burger {
+            display: block;
+            padding: 1rem;
+            text-align: center;
+            width: 50px;
+        }
+
+        .burgerNav>a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: cyan;
+            font-size: 30px;
+        }
+    }
+
+    #skillsContainer {
+
+        display: flex;
+        justify-content: center;
+
+        h3 {
+            display: none;
+        }
+
+        #skillContainer {
+
+            margin: 1rem auto;
+        }
+    }
+
+    #contacts {
+        #contactsContainer {
+            font-size: 20px;
+        }
+    }
+}

@@ -34,7 +34,7 @@
                   <div class="face face2">
                     <div class="content">
                       <p> Pour en savoir plus sur moi !</p>
-                      <a href="#me" type="button">Go !</a>
+                      <a href="#meSect" type="button">Go !</a>
                     </div>
                   </div>
                </div>
@@ -81,6 +81,17 @@
                 </div>
              </div>  
             </div>
+            <div class="displayNone" id="btn_burgerContainer">
+              <div id="btn_burger">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul class="displayNone" id="burgerNav">
+                <a href="#meSect">À propos de moi</a>
+                <a href="#projets">Projets</a>
+                <a href="#compétences">Compétences</a>
+                <a href="#contacts">Contacts</a>
+              </ul>
+            </div>
         </nav>
     </header>
 
@@ -121,28 +132,50 @@
 
             <article id="prosContainer">
 
-              <div class="proContainer img1">
-                <h3>Gaming Campus</h3>
+              <div class="proContainer scene">
+                <div class="card">
+                  <div class="cardFace front">
+                    <h3>Gaming Campus</h3>
+                  </div>
+                  <div class="cardFace back">
+                    <img src="assets/img/gamingCampus.png" alt="">
+                  </div>
+                </div>
               </div>
 
-              <div class="proContainer img2">
+              <div class="proContainer">
                 <h3>World of Warcraft</h3>
+                <div>
+                  <img src="assets/img/wow.png" alt="">
+                </div>
               </div>
 
-              <div class="proContainer img3">
+              <div class="proContainer">
                 <h3>Pep's Coaching</h3>
+                <div>
+                  <img src="assets/img/peps.png" alt="">
+                </div>
               </div>
 
-              <div class="proContainer img4">
+              <div class="proContainer">
                 <h3>DevVid</h3>
+                <div>
+                  <img src="assets/img/devVid.png" alt="">
+                </div>
               </div>
 
-              <div class="proContainer img5">
+              <div class="proContainer">
                 <h3>New World</h3>
+                <div>
+                  <img src="assets/img/newWorld.png" alt="">
+                </div>
               </div>
 
-              <div class="proContainer img6">
+              <div class="proContainer">
                 <h3>One Million</h3>
+                <div>
+                  <img src="assets/img/oneMillion.png" alt="">
+                </div>
               </div>
 
             </article>
@@ -154,7 +187,8 @@
         <!-- THIRD SECTION w/ MOVING SKILLS DISPLAY -->
 
 
-        <section id="compétences" class="box">
+        <section id="compétences">
+          <div  class="box">
             <h2>Mes compétences</h2>
             <p>Voici les langages et frameworks qui m'ont servis à réaliser les projets précédents:</p>
             <article>
@@ -163,35 +197,91 @@
                 <span id="skillContainer"></span>
               </div>
               <ul>
-                <li class="skills1">HTML</li>
-                <li class="skills2">CSS</li>
-                <li class="skills1">SASS</li>
-                <li class="skills2">JavaScript</li>
-                <li class="skills1">React</li>
-                <li class="skills2">BootStrap</li>
+                <li class="skills1">
+                  <i class="fa-brands fa-html5"></i>
+                  HTML
+                  <i class="fa-brands fa-html5"></i>
+                </li>
+                <li class="skills2">
+                  <i class="fa-brands fa-css3"></i>
+                  CSS
+                  <i class="fa-brands fa-css3"></i>
+                </li>
+                <li class="skills1">
+                  <i class="fa-brands fa-sass"></i>
+                  SASS
+                  <i class="fa-brands fa-sass"></i>
+                </li>
+                <li class="skills2">
+                  <i class="fa-brands fa-js"></i>
+                  JavaScript
+                  <i class="fa-brands fa-js"></i>
+                </li>
+                <li class="skills1">
+                  <i class="fa-brands fa-react"></i>
+                  React
+                  <i class="fa-brands fa-react"></i>
+                </li>
+                <li class="skills2">
+                  <i class="fa-brands fa-bootstrap"></i>
+                  BootStrap
+                  <i class="fa-brands fa-bootstrap"></i>
+                </li>
               </ul>
             </article>
+          </div>
         </section>
 
         <!-- FOURTH SECTION WITH FORM TO CONTACT ME OR LEAVE SOME COMMENTS -->
 
 
-        <section id="contacts" class="box">
+        <section id="contacts">
+          
+          <div class="box">
+
             <h2>Contactez-moi !</h2>
-            <article>
-              <p></p>
-              <p></p>
+
+            <article id="formContainer">
+
+              <p>Si après avoir rapidement parcouru ce portfolio vous souhaitez me contacter ;)</p>
+              <div id="contactsContainer">
+                
+              </div>
+
               <form action="">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Si vous souhaitez laisser un commentaire"></textarea>
+                <textarea name="" id="" cols="50" rows="10" placeholder="Si vous souhaitez laisser un commentaire c'est par ici :)"></textarea>
               </form>
+              <button id="sendBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Envoyer
+              </button>
+
             </article>
-        </section>
+          </div>
+
+          </section>
+
     </main>
 
+      <!-- FOOTER -->
+
     <footer>
-      
+
+      <div class="footerContent">
+          <p>© Fabrice Ho A Chuck 2022 | Tous droits réservés</p>
+          <div>
+            <p>Mentions Légales</p>
+            <p>CGV</p>
+          </div>
+      </div>
+
     </footer>
 
 </body>
 <script src="assets/js/home.js"></script>
 <script src="assets/js/skills.js"></script>
+<script src="assets/js/contact.js"></script>
+<script src="assets/js/btn_burger.js"></script>

@@ -15,7 +15,7 @@ function displaySkills(){
             if(i < skills.length - 1) {
                 i++;
             } else {
-                i =0;
+                i = 0;
             }
 
         }

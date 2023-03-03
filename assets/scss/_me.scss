@@ -9,13 +9,22 @@
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    margin: 20% auto;
     padding: 10%;
     overflow: hidden;
 
     h2 {
         text-align: center;
-        text-transform: uppercase;
+        font-size: 40px;
+        font-family: "zen";
+        text-shadow: 
+        0 0 7px #fff,
+        0 0 10px #9D00FF,
+        0 0 21px #9D00FF,
+        0 0 42px #9D00FF,
+        0 0 82px #9D00FF,
+        0 0 92px #9D00FF,
+        0 0 102px #9D00FF,
+        0 0 151px #9D00FF;
     }
 
     article {
@@ -25,17 +34,20 @@
         justify-content: center;
         align-items: center;
 
+
         h3 {
             text-align: center;
             text-transform: uppercase;
-            color: white;
+            color: gold;
             margin: 2rem;
+            font-size: 30px;
         }
 
         p {
             text-align: center;
             width: 800px;
             color: white;
+            font-size: 20px;
         }
     }
 }

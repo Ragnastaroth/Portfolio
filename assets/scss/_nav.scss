@@ -14,7 +14,8 @@ nav {
 }
 
 h2 {
-    color: #fff;
+    color: cyan;
+    
 }
 
 .cardContainer{
@@ -64,32 +65,18 @@ h2 {
   
   
   .cardContainer .card .face.face1 .content{
-    opacity: .2;
+    opacity: .5;
     transition:  0.5s;
     text-align: center;
-    
-     
-
   }
   
   .cardContainer .card:hover .face.face1 .content{
-    opacity: 1;
-   
+    opacity: 1; 
   }
   
-  .cardContainer .card .face.face1 .content i{
-    font-size: 3em;
+  .cardContainer .card .face.face1 .content h2{
     color: white;
-    display: inline-block;
-     
-  }
-  
-  .cardContainer .card .face.face1 .content h3{
-    font-size: 1em;
-    color: white;
-    text-align: center;
-    
-  
+    text-align: center; 
   }
   
   .cardContainer .card .face.face1 .content a{
@@ -135,3 +122,17 @@ h2 {
     color: whitesmoke; 
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
   }
+
+
+#btn_burger {
+
+  border: 1px solid white;
+
+    i {
+      color: white;
+    }
+}
+
+.displayNone {
+  display: none;
+}

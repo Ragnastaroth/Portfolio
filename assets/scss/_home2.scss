@@ -37,8 +37,8 @@ h1 {
     .box {
         --border-size: 3px;
         --border-angle: 0turn;
-        width: 60vmin;
-        height: 50vmin;
+        // width: 60vmin;
+        // height: 50vmin;
         background-image: conic-gradient(
             from var(--border-angle),
             #213,

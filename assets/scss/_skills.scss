@@ -1,13 +1,28 @@
 
-#compétences {
+.box {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    margin: 20%;
     padding: 10%;
+
+    h2 {
+
+        font-size: 40px;
+        font-family: "zen";
+        text-shadow: 
+        0 0 7px #fff,
+        0 0 10px #9D00FF,
+        0 0 21px #9D00FF,
+        0 0 42px #9D00FF,
+        0 0 82px #9D00FF,
+        0 0 92px #9D00FF,
+        0 0 102px #9D00FF,
+        0 0 151px #9D00FF;
+        text-align: center;
+    }
 
     #skillsContainer {
         width: 600px;
@@ -18,7 +33,7 @@
         
         h3 {
             color: cyan;
-            font-size: 40px;
+            font-size: 30px;
             font-family: "mont_b";
             text-transform: uppercase;
         }
@@ -33,6 +48,33 @@
 
     p, li {
         color: white;
+        font-size: 20px;
+        text-align: center;
+
+        .fa-html5 {
+
+            color: #e25a25;
+        }
+
+        .fa-css3 {
+            color: #1a6db1;
+        }
+
+        .fa-sass {
+            color: #c36192;
+        }
+
+        .fa-js {
+            color: #f7e018;
+        }
+
+        .fa-react {
+            color: #5ccfee;
+        }
+
+        .fa-bootstrap {
+            color: #513a75;
+        }
     }
 
     ul {
@@ -42,7 +84,7 @@
         align-items: center;
         gap: 1rem;
         margin: 4rem auto;
-        overflow: hidden;
+        overflow: hidden;     
     }
 }
 
@@ -78,3 +120,4 @@
         transform: translateX(0)
     }
 }
+
